@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+
+    background: #252839;
+
+}
+
+
+nav{
+    background: #0082e6;
+    height: 120px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0px;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 120px;
+    padding: 0 100px;
+    font-weight: bold;
+    z-index: 10;
+    
+
+}
+nav ul{
+    float: right;
+    margin-right: 120px;
+    z-index: 10;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+    z-index: 10;
+   
+
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    z-index: 10;
+    padding-left: 100px;
+  
+
+
+}
+
+.a.active,a:hover{
+    background: #1b9ff1;
+
+transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width: 952px){
+ 
+    label.logo{
+        font-size: 55px;
+        padding-left: 50px;
+    }
+
